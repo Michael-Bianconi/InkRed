@@ -71,4 +71,5 @@ while not exit_condition:
 	clock.tick(60)
 	
 pygame.display.quit()
+laser_timer.stop()
 sys.exit()
